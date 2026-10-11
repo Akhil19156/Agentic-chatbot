@@ -1,0 +1,25 @@
+
+# Python environment and cache
+.venv/
+langgraph-project/
+__pycache__/
+*.py[cod]
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Local chat database and state
+*.db
+*.db-shm
+*.db-wal
+chat_titles.json
+hidden_chats.json
+
+# Generated vector index
+faiss_index/
+
+# Local editor files
+.vscode/
+.DS_Store
