@@ -1,3 +1,4 @@
+
 FROM python:3.11-slim
 
 # Prevent Python cache files and enable immediate container logs
@@ -26,7 +27,7 @@ COPY . .
 
 EXPOSE 8501
 
-CMD ["streamlit", "run", "app.py", \
+CMD ["streamlit", "run", "app_hitl.py", \
      "--server.port=8501", \
      "--server.address=0.0.0.0", \
      "--server.headless=true", \
