@@ -1,6 +1,14 @@
+
+streamlit
+python-dotenv
+
+# LangChain and Google Gemini
 langchain-core
 langchain-google-genai
+
+# Agentic AI workflow
 langgraph
-python-dotenv
-streamlit
 langgraph-checkpoint-sqlite
+
+# Web search
+langchain-tavily
